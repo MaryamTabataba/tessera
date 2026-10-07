@@ -1,0 +1,24 @@
+{
+  "name": "tessera-ui-playbook",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Accessible UI playbook: acceptance criteria, WCAG 2.2, disabilities, brand theming and front-end standards for every component.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "standalone": "vite build && node scripts/standalone.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}
