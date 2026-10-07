@@ -93,7 +93,7 @@ export function ComponentPage({ id, brandId }) {
 
       <div className="comp">
         <div className="comp__main">
-          <Tabs key={`${component.id}-${brand ? 'b' : 'a'}`} label={`${component.name} checklist`} tabs={tabs} initial={brand ? 3 : 0} />
+          <Tabs key={`${component.id}-${brand ? 'b' : 'a'}`} label={`${component.name} checklist`} tabs={tabs} initial={0} />
         </div>
         <aside className="comp__aside" aria-label="Copy criteria">
           <div className="panel panel--sticky">
